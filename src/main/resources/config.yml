@@ -51,22 +51,22 @@ sounds:
   # เสียงเมื่อเปิดหมวดหมู่ในร้านค้า
   open-category:
     name: "UI_BUTTON_CLICK" # ชื่อเสียง สามารถหาได้จาก Minecraft Wiki
-    volume: 0.8 #ความดัง (0.0 - 1.0)
+    volume: 0.5 #ความดัง (0.0 - 1.0)
     pitch: 1 #ระดับเสียง (0.0 - 2.0)
   # เสียงเมื่อกดปุ่มเพิ่ม/ลดจำนวน
   click-quantity:
     name: "UI_BUTTON_CLICK"
-    volume: 0.7
+    volume: 0.5
     pitch: 1
   # เสียงเมื่อซื้อของสำเร็จ
   purchase-success:
     name: "ENTITY_EXPERIENCE_ORB_PICKUP"
-    volume: 0.7
+    volume: 0.5
     pitch: 1
   # เสียงเมื่อซื้อของล้มเหลว (เงินไม่พอ / ของเต็ม)
   purchase-fail:
     name: "ENTITY_VILLAGER_NO"
-    volume: 0.7
+    volume: 0.5
     pitch: 1.0
 
 # การตั้งค่าหน้าต่าง GUI (Graphical User Interface)
@@ -111,6 +111,6 @@ item-format:
   # คำอธิบาย (Lore) ที่จะถูกเพิ่มเข้าไปใต้ไอเทมทุกชิ้นในร้านค้า
   lore:
     # {price} คือราคาต่อชิ้น
-    - "&eราคา: &f${price} "
+    - "&eราคา: &7${price} "
     - "" # เพิ่มบรรทัดว่าง
     - "&aคลิกเพื่อซื้อ!"

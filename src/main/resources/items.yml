@@ -123,7 +123,7 @@ categories:
         name: Shulker Box
 
   Nether_Items:
-    title: '&4&lSHOP - NETHER'
+    title: '&4ѕʜᴏᴘ - ɴᴇᴛʜᴇʀ'
     rows: 3
     back-button:
       material: RED_STAINED_GLASS_PANE
@@ -133,7 +133,7 @@ categories:
       slot: 18
     display_item:
       material: NETHERRACK
-      name: '&c&lNether Items'
+      name: '&4ɴᴇᴛʜᴇʀ ɪᴛᴇᴍѕ'
       lore:
         - '&7Click to see items from the Nether!'
       slot: 12
@@ -239,7 +239,7 @@ categories:
         name: Crying Obsidian
 
   Gear_Items:
-    title: '&b&lSHOP - GEAR'
+    title: '&bѕʜᴏᴘ - ɢᴇᴀʀ'
     rows: 3
     back-button:
       material: RED_STAINED_GLASS_PANE
@@ -249,7 +249,7 @@ categories:
       slot: 18
     display_item:
       material: TOTEM_OF_UNDYING
-      name: '&b&lGEAR Items'
+      name: '&bɢᴇᴀʀ ɪᴛᴇᴍѕ'
       lore:
         - '&7Click to view the gear shop'
       slot: 13
@@ -379,7 +379,7 @@ categories:
         name: Obsidian
 
   Food_Items:
-    title: '&b&lSHOP - FOOD'
+    title: '&2ѕʜᴏᴘ - ꜰᴏᴏᴅ'
     rows: 3
     back-button:
       material: RED_STAINED_GLASS_PANE
@@ -389,7 +389,7 @@ categories:
       slot: 18
     display_item:
       material: COOKED_BEEF
-      name: '&b&lFood Items'
+      name: '&2ꜰᴏᴏᴅ ɪᴛᴇᴍѕ'
       lore:
         - '&7Click to view the food shop'
       slot: 14
@@ -495,7 +495,7 @@ categories:
         name: Golden Apple
 
   Redstone_Items:
-    title: '&b&lSHOP - REDSTONE'
+    title: '&4ѕʜᴏᴘ - ʀᴇᴅѕᴛᴏɴᴇ'
     rows: 6
     back-button:
       material: RED_STAINED_GLASS_PANE
@@ -505,8 +505,10 @@ categories:
       slot: 45
     display_item:
       material: REDSTONE
-      name: '&b&lRedstone Items'
+      name: '&4ʀᴇᴅѕᴛᴏɴᴇ ɪᴛᴇᴍѕ'
       lore:
+        - '&7The product has a limited time.'
+        - ''
         - '&7Click to view the Redstone shop'
       slot: 17
     items:
@@ -521,17 +523,6 @@ categories:
         slot: 10
         material: REDSTONE
         name: Redstone
-      redstone_torch_1753847112249:
-        itemstack:
-          ==: org.bukkit.inventory.ItemStack
-          DataVersion: 4438
-          id: minecraft:redstone_torch
-          count: 64
-          schema_version: 1
-        price: 50
-        slot: 11
-        material: REDSTONE_TORCH
-        name: Redstone Torch
       repeater_1753847131817:
         itemstack:
           ==: org.bukkit.inventory.ItemStack
@@ -796,14 +787,25 @@ categories:
         slot: 41
         material: IRON_TRAPDOOR
         name: Iron Trapdoor
+      redstone_torch_1753859656459:
+        itemstack:
+          ==: org.bukkit.inventory.ItemStack
+          DataVersion: 4438
+          id: minecraft:redstone_torch
+          count: 1
+          schema_version: 1
+        price: 50
+        slot: 11
+        material: REDSTONE_TORCH
+        name: Redstone Torch
 
 
 
-  command_shardshop:  # 1. ตั้งชื่อ Key ของหมวดหมู่ (ไม่ซ้ำกับใคร)
+  command_shardshop: # 1. ตั้งชื่อ Key ของหมวดหมู่ (ไม่ซ้ำกับใคร)
     display_item:
-      material: AMETHYST_SHARD    # 2. ไอเทมที่จะให้แสดงในหน้า /shop
-      name: '&d&lShard Shop'      # 3. ชื่อของไอเทม
-      lore:                      # 4. คำอธิบายไอเทม (ไม่จำเป็นต้องมีก็ได้)
+      material: AMETHYST_SHARD # 2. ไอเทมที่จะให้แสดงในหน้า /shop
+      name: '&5ѕʜᴀʀᴅѕ ѕʜᴏᴘ' # 3. ชื่อของไอเทม
+      lore: # 4. คำอธิบายไอเทม (ไม่จำเป็นต้องมีก็ได้)
         - '&7Click to open the Shard Shop!'
-      slot: 16                     # 5. ตำแหน่งที่จะให้ไอเทมแสดง
-      command: 'shardsshop'      # 6. <<<< ส่วนที่สำคัญที่สุด
+      slot: 15 # 5. ตำแหน่งที่จะให้ไอเทมแสดง
+      command: shardsshop # 6. <<<< ส่วนที่สำคัญที่สุด
