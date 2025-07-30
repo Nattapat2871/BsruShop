@@ -1,0 +1,809 @@
+# ===============================================
+#          BsruShop Items Data File
+# ===============================================
+#
+# rows: กำหนดจำนวนแถวของ GUI ในหน้านั้นๆ (1-6 แถว)
+# slot: ตำแหน่งของไอเทม เริ่มนับจาก 0
+
+categories:
+  End_Items:
+    title: '&eѕʜᴏᴘ - ᴇɴᴅ'
+    rows: 3
+    back-button:
+      material: RED_STAINED_GLASS_PANE
+      name: '&c&lBack'
+      lore:
+        - '&7Return to main menu.'
+      slot: 18
+    display_item:
+      material: END_STONE
+      name: '&eᴇɴᴅ ɪᴛᴇᴍѕ'
+      lore:
+        - '&7Click to see Items from The End!'
+      slot: 11
+    items:
+      ender_chest_1753843520625:
+        itemstack:
+          ==: org.bukkit.inventory.ItemStack
+          DataVersion: 4438
+          id: minecraft:ender_chest
+          count: 1
+          schema_version: 1
+        price: 1500
+        slot: 9
+        material: ENDER_CHEST
+        name: Chest
+      ender_pearl_1753844171588:
+        itemstack:
+          ==: org.bukkit.inventory.ItemStack
+          DataVersion: 4438
+          id: minecraft:ender_pearl
+          count: 1
+          schema_version: 1
+        price: 75
+        slot: 10
+        material: ENDER_PEARL
+        name: Ender Pearl
+      end_stone_1753845068615:
+        itemstack:
+          ==: org.bukkit.inventory.ItemStack
+          DataVersion: 4438
+          id: minecraft:end_stone
+          count: 1
+          schema_version: 1
+        price: 8
+        slot: 11
+        material: END_STONE
+        name: End Stone
+      dragon_breath_1753845131381:
+        itemstack:
+          ==: org.bukkit.inventory.ItemStack
+          DataVersion: 4438
+          id: minecraft:dragon_breath
+          count: 1
+          schema_version: 1
+        price: 1000
+        slot: 12
+        material: DRAGON_BREATH
+        name: Dragon Breath
+      end_rod_1753845139154:
+        itemstack:
+          ==: org.bukkit.inventory.ItemStack
+          DataVersion: 4438
+          id: minecraft:end_rod
+          count: 1
+          schema_version: 1
+        price: 100
+        slot: 13
+        material: END_ROD
+        name: End Rod
+      chorus_fruit_1753845148879:
+        itemstack:
+          ==: org.bukkit.inventory.ItemStack
+          DataVersion: 4438
+          id: minecraft:chorus_fruit
+          count: 1
+          schema_version: 1
+        price: 24
+        slot: 14
+        material: CHORUS_FRUIT
+        name: Chorus Fruit
+      popped_chorus_fruit_1753845151003:
+        itemstack:
+          ==: org.bukkit.inventory.ItemStack
+          DataVersion: 4438
+          id: minecraft:popped_chorus_fruit
+          count: 1
+          schema_version: 1
+        price: 24
+        slot: 15
+        material: POPPED_CHORUS_FRUIT
+        name: Popped Chorus Fruit
+      shulker_shell_1753845158122:
+        itemstack:
+          ==: org.bukkit.inventory.ItemStack
+          DataVersion: 4438
+          id: minecraft:shulker_shell
+          count: 1
+          schema_version: 1
+        price: 350
+        slot: 16
+        material: SHULKER_SHELL
+        name: Shulker Shell
+      shulker_box_1753845162833:
+        itemstack:
+          ==: org.bukkit.inventory.ItemStack
+          DataVersion: 4438
+          id: minecraft:shulker_box
+          count: 1
+          schema_version: 1
+        price: 800
+        slot: 17
+        material: SHULKER_BOX
+        name: Shulker Box
+
+  Nether_Items:
+    title: '&4&lSHOP - NETHER'
+    rows: 3
+    back-button:
+      material: RED_STAINED_GLASS_PANE
+      name: '&c&lBack'
+      lore:
+        - '&7Return to main menu.'
+      slot: 18
+    display_item:
+      material: NETHERRACK
+      name: '&c&lNether Items'
+      lore:
+        - '&7Click to see items from the Nether!'
+      slot: 12
+    items:
+      blaze_rod_1753845294455:
+        itemstack:
+          ==: org.bukkit.inventory.ItemStack
+          DataVersion: 4438
+          id: minecraft:blaze_rod
+          count: 1
+          schema_version: 1
+        price: 150
+        slot: 9
+        material: BLAZE_ROD
+        name: Blaze Rod
+      nether_wart_1753845316681:
+        itemstack:
+          ==: org.bukkit.inventory.ItemStack
+          DataVersion: 4438
+          id: minecraft:nether_wart
+          count: 1
+          schema_version: 1
+        price: 96
+        slot: 10
+        material: NETHER_WART
+        name: Nether Wart
+      glowstone_dust_1753845325814:
+        itemstack:
+          ==: org.bukkit.inventory.ItemStack
+          DataVersion: 4438
+          id: minecraft:glowstone_dust
+          count: 1
+          schema_version: 1
+        price: 15
+        slot: 11
+        material: GLOWSTONE_DUST
+        name: Glowstone Dust
+      magma_cream_1753845341294:
+        itemstack:
+          ==: org.bukkit.inventory.ItemStack
+          DataVersion: 4438
+          id: minecraft:magma_cream
+          count: 1
+          schema_version: 1
+        price: 96
+        slot: 12
+        material: MAGMA_CREAM
+        name: Magma Cream
+      ghast_tear_1753845354879:
+        itemstack:
+          ==: org.bukkit.inventory.ItemStack
+          DataVersion: 4438
+          id: minecraft:ghast_tear
+          count: 1
+          schema_version: 1
+        price: 350
+        slot: 13
+        material: GHAST_TEAR
+        name: Ghast Tear
+      quartz_1753845360999:
+        itemstack:
+          ==: org.bukkit.inventory.ItemStack
+          DataVersion: 4438
+          id: minecraft:quartz
+          count: 1
+          schema_version: 1
+        price: 30
+        slot: 14
+        material: QUARTZ
+        name: Quartz
+      soul_sand_1753845368039:
+        itemstack:
+          ==: org.bukkit.inventory.ItemStack
+          DataVersion: 4438
+          id: minecraft:soul_sand
+          count: 1
+          schema_version: 1
+        price: 50
+        slot: 15
+        material: SOUL_SAND
+        name: Soul Sand
+      magma_block_1753845373915:
+        itemstack:
+          ==: org.bukkit.inventory.ItemStack
+          DataVersion: 4438
+          id: minecraft:magma_block
+          count: 1
+          schema_version: 1
+        price: 35
+        slot: 16
+        material: MAGMA_BLOCK
+        name: Magma Block
+      crying_obsidian_1753845379910:
+        itemstack:
+          ==: org.bukkit.inventory.ItemStack
+          DataVersion: 4438
+          id: minecraft:crying_obsidian
+          count: 1
+          schema_version: 1
+        price: 150
+        slot: 17
+        material: CRYING_OBSIDIAN
+        name: Crying Obsidian
+
+  Gear_Items:
+    title: '&b&lSHOP - GEAR'
+    rows: 3
+    back-button:
+      material: RED_STAINED_GLASS_PANE
+      name: '&c&lBack'
+      lore:
+        - '&7Return to main menu.'
+      slot: 18
+    display_item:
+      material: TOTEM_OF_UNDYING
+      name: '&b&lGEAR Items'
+      lore:
+        - '&7Click to view the gear shop'
+      slot: 13
+    items:
+      obsidian_1753845501586:
+        itemstack:
+          ==: org.bukkit.inventory.ItemStack
+          DataVersion: 4438
+          id: minecraft:obsidian
+          count: 1
+          schema_version: 1
+        price: 100
+        slot: 9
+        material: OBSIDIAN
+        name: Obsidian
+      end_crystal_1753845557221:
+        itemstack:
+          ==: org.bukkit.inventory.ItemStack
+          DataVersion: 4438
+          id: minecraft:end_crystal
+          count: 1
+          schema_version: 1
+        price: 350
+        slot: 10
+        material: END_CRYSTAL
+        name: End Crystal
+      respawn_anchor_1753845575057:
+        itemstack:
+          ==: org.bukkit.inventory.ItemStack
+          DataVersion: 4438
+          id: minecraft:respawn_anchor
+          count: 1
+          schema_version: 1
+        price: 500
+        slot: 11
+        material: RESPAWN_ANCHOR
+        name: Respawn Anchor
+      glowstone_1753845582866:
+        itemstack:
+          ==: org.bukkit.inventory.ItemStack
+          DataVersion: 4438
+          id: minecraft:glowstone
+          count: 1
+          schema_version: 1
+        price: 100
+        slot: 12
+        material: GLOWSTONE
+        name: Glowstone
+      totem_of_undying_1753845590487:
+        itemstack:
+          ==: org.bukkit.inventory.ItemStack
+          DataVersion: 4438
+          id: minecraft:totem_of_undying
+          count: 1
+          schema_version: 1
+        price: 1000
+        slot: 13
+        material: TOTEM_OF_UNDYING
+        name: Totem Of Undying
+      ender_pearl_1753845597742:
+        itemstack:
+          ==: org.bukkit.inventory.ItemStack
+          DataVersion: 4438
+          id: minecraft:ender_pearl
+          count: 1
+          schema_version: 1
+        price: 75
+        slot: 14
+        material: ENDER_PEARL
+        name: Ender Pearl
+      golden_apple_1753845604282:
+        itemstack:
+          ==: org.bukkit.inventory.ItemStack
+          DataVersion: 4438
+          id: minecraft:golden_apple
+          count: 1
+          schema_version: 1
+        price: 250
+        slot: 15
+        material: GOLDEN_APPLE
+        name: Golden Apple
+      experience_bottle_1753845618049:
+        itemstack:
+          ==: org.bukkit.inventory.ItemStack
+          DataVersion: 4438
+          id: minecraft:experience_bottle
+          count: 1
+          schema_version: 1
+        price: 100
+        slot: 16
+        material: EXPERIENCE_BOTTLE
+        name: Experience Bottle
+      tipped_arrow_1753845625171:
+        itemstack:
+          ==: org.bukkit.inventory.ItemStack
+          DataVersion: 4438
+          id: minecraft:tipped_arrow
+          count: 1
+          components:
+            minecraft:potion_contents: '{potion:"minecraft:long_slow_falling"}'
+          schema_version: 1
+        price: 500
+        slot: 17
+        material: TIPPED_ARROW
+        name: Tipped Arrow
+      potato_1753846344205:
+        itemstack:
+          ==: org.bukkit.inventory.ItemStack
+          DataVersion: 4438
+          id: minecraft:potato
+          count: 1
+          schema_version: 1
+        price: 96
+        slot: 9
+        material: POTATO
+        name: Potato
+      obsidian_1753846372441:
+        itemstack:
+          ==: org.bukkit.inventory.ItemStack
+          DataVersion: 4438
+          id: minecraft:obsidian
+          count: 1
+          schema_version: 1
+        price: 100
+        slot: 9
+        material: OBSIDIAN
+        name: Obsidian
+
+  Food_Items:
+    title: '&b&lSHOP - FOOD'
+    rows: 3
+    back-button:
+      material: RED_STAINED_GLASS_PANE
+      name: '&c&lBack'
+      lore:
+        - '&7Return to main menu.'
+      slot: 18
+    display_item:
+      material: COOKED_BEEF
+      name: '&b&lFood Items'
+      lore:
+        - '&7Click to view the food shop'
+      slot: 14
+    items:
+      potato_1753846396911:
+        itemstack:
+          ==: org.bukkit.inventory.ItemStack
+          DataVersion: 4438
+          id: minecraft:potato
+          count: 1
+          schema_version: 1
+        price: 96
+        slot: 9
+        material: POTATO
+        name: Potato
+      sweet_berries_1753846417368:
+        itemstack:
+          ==: org.bukkit.inventory.ItemStack
+          DataVersion: 4438
+          id: minecraft:sweet_berries
+          count: 1
+          schema_version: 1
+        price: 50
+        slot: 10
+        material: SWEET_BERRIES
+        name: Sweet Berries
+      melon_slice_1753846423403:
+        itemstack:
+          ==: org.bukkit.inventory.ItemStack
+          DataVersion: 4438
+          id: minecraft:melon_slice
+          count: 1
+          schema_version: 1
+        price: 18
+        slot: 11
+        material: MELON_SLICE
+        name: Melon Slice
+      carrot_1753846431535:
+        itemstack:
+          ==: org.bukkit.inventory.ItemStack
+          DataVersion: 4438
+          id: minecraft:carrot
+          count: 1
+          schema_version: 1
+        price: 96
+        slot: 12
+        material: CARROT
+        name: Carrot
+      apple_1753846438311:
+        itemstack:
+          ==: org.bukkit.inventory.ItemStack
+          DataVersion: 4438
+          id: minecraft:apple
+          count: 1
+          schema_version: 1
+        price: 25
+        slot: 13
+        material: APPLE
+        name: Apple
+      cooked_chicken_1753846445176:
+        itemstack:
+          ==: org.bukkit.inventory.ItemStack
+          DataVersion: 4438
+          id: minecraft:cooked_chicken
+          count: 1
+          schema_version: 1
+        price: 48
+        slot: 14
+        material: COOKED_CHICKEN
+        name: Cooked Chicken
+      cooked_beef_1753846466481:
+        itemstack:
+          ==: org.bukkit.inventory.ItemStack
+          DataVersion: 4438
+          id: minecraft:cooked_beef
+          count: 1
+          schema_version: 1
+        price: 35
+        slot: 15
+        material: COOKED_BEEF
+        name: Cooked Beef
+      golden_carrot_1753846472525:
+        itemstack:
+          ==: org.bukkit.inventory.ItemStack
+          DataVersion: 4438
+          id: minecraft:golden_carrot
+          count: 1
+          schema_version: 1
+        price: 120
+        slot: 16
+        material: GOLDEN_CARROT
+        name: Golden Carrot
+      golden_apple_1753846478112:
+        itemstack:
+          ==: org.bukkit.inventory.ItemStack
+          DataVersion: 4438
+          id: minecraft:golden_apple
+          count: 1
+          schema_version: 1
+        price: 250
+        slot: 17
+        material: GOLDEN_APPLE
+        name: Golden Apple
+
+  Redstone_Items:
+    title: '&b&lSHOP - REDSTONE'
+    rows: 6
+    back-button:
+      material: RED_STAINED_GLASS_PANE
+      name: '&c&lBack'
+      lore:
+        - '&7Return to main menu.'
+      slot: 45
+    display_item:
+      material: REDSTONE
+      name: '&b&lRedstone Items'
+      lore:
+        - '&7Click to view the Redstone shop'
+      slot: 17
+    items:
+      redstone_1753847096825:
+        itemstack:
+          ==: org.bukkit.inventory.ItemStack
+          DataVersion: 4438
+          id: minecraft:redstone
+          count: 1
+          schema_version: 1
+        price: 50
+        slot: 10
+        material: REDSTONE
+        name: Redstone
+      redstone_torch_1753847112249:
+        itemstack:
+          ==: org.bukkit.inventory.ItemStack
+          DataVersion: 4438
+          id: minecraft:redstone_torch
+          count: 64
+          schema_version: 1
+        price: 50
+        slot: 11
+        material: REDSTONE_TORCH
+        name: Redstone Torch
+      repeater_1753847131817:
+        itemstack:
+          ==: org.bukkit.inventory.ItemStack
+          DataVersion: 4438
+          id: minecraft:repeater
+          count: 1
+          schema_version: 1
+        price: 200
+        slot: 12
+        material: REPEATER
+        name: Repeater
+      comparator_1753847137225:
+        itemstack:
+          ==: org.bukkit.inventory.ItemStack
+          DataVersion: 4438
+          id: minecraft:comparator
+          count: 1
+          schema_version: 1
+        price: 250
+        slot: 13
+        material: COMPARATOR
+        name: Comparator
+      target_1753847209619:
+        itemstack:
+          ==: org.bukkit.inventory.ItemStack
+          DataVersion: 4438
+          id: minecraft:target
+          count: 1
+          schema_version: 1
+        price: 100
+        slot: 14
+        material: TARGET
+        name: Target
+      lever_1753847238637:
+        itemstack:
+          ==: org.bukkit.inventory.ItemStack
+          DataVersion: 4438
+          id: minecraft:lever
+          count: 1
+          schema_version: 1
+        price: 50
+        slot: 15
+        material: LEVER
+        name: Lever
+      oak_button_1753847241680:
+        itemstack:
+          ==: org.bukkit.inventory.ItemStack
+          DataVersion: 4438
+          id: minecraft:oak_button
+          count: 1
+          schema_version: 1
+        price: 50
+        slot: 16
+        material: OAK_BUTTON
+        name: Oak Button
+      stone_button_1753847263161:
+        itemstack:
+          ==: org.bukkit.inventory.ItemStack
+          DataVersion: 4438
+          id: minecraft:stone_button
+          count: 1
+          schema_version: 1
+        price: 50
+        slot: 19
+        material: STONE_BUTTON
+        name: Stone Button
+      tripwire_hook_1753847293403:
+        itemstack:
+          ==: org.bukkit.inventory.ItemStack
+          DataVersion: 4438
+          id: minecraft:tripwire_hook
+          count: 1
+          schema_version: 1
+        price: 75
+        slot: 20
+        material: TRIPWIRE_HOOK
+        name: Tripwire Hook
+      sculk_sensor_1753847317821:
+        itemstack:
+          ==: org.bukkit.inventory.ItemStack
+          DataVersion: 4438
+          id: minecraft:sculk_sensor
+          count: 1
+          schema_version: 1
+        price: 500
+        slot: 21
+        material: SCULK_SENSOR
+        name: Sculk Sensor
+      calibrated_sculk_sensor_1753847323679:
+        itemstack:
+          ==: org.bukkit.inventory.ItemStack
+          DataVersion: 4438
+          id: minecraft:calibrated_sculk_sensor
+          count: 1
+          schema_version: 1
+        price: 1000
+        slot: 22
+        material: CALIBRATED_SCULK_SENSOR
+        name: Calibrated Sculk Sensor
+      daylight_detector_1753847333446:
+        itemstack:
+          ==: org.bukkit.inventory.ItemStack
+          DataVersion: 4438
+          id: minecraft:daylight_detector
+          count: 1
+          schema_version: 1
+        price: 300
+        slot: 23
+        material: DAYLIGHT_DETECTOR
+        name: Daylight Detector
+      piston_1753847346733:
+        itemstack:
+          ==: org.bukkit.inventory.ItemStack
+          DataVersion: 4438
+          id: minecraft:piston
+          count: 1
+          schema_version: 1
+        price: 800
+        slot: 24
+        material: PISTON
+        name: Piston
+      sticky_piston_1753847350897:
+        itemstack:
+          ==: org.bukkit.inventory.ItemStack
+          DataVersion: 4438
+          id: minecraft:sticky_piston
+          count: 1
+          schema_version: 1
+        price: 1000
+        slot: 25
+        material: STICKY_PISTON
+        name: Sticky Piston
+      slime_block_1753847385946:
+        itemstack:
+          ==: org.bukkit.inventory.ItemStack
+          DataVersion: 4438
+          id: minecraft:slime_block
+          count: 1
+          schema_version: 1
+        price: 1500
+        slot: 28
+        material: SLIME_BLOCK
+        name: Slime Block
+      honey_block_1753847387472:
+        itemstack:
+          ==: org.bukkit.inventory.ItemStack
+          DataVersion: 4438
+          id: minecraft:honey_block
+          count: 1
+          schema_version: 1
+        price: 1500
+        slot: 29
+        material: HONEY_BLOCK
+        name: Honey Block
+      dispenser_1753847442907:
+        itemstack:
+          ==: org.bukkit.inventory.ItemStack
+          DataVersion: 4438
+          id: minecraft:dispenser
+          count: 1
+          schema_version: 1
+        price: 900
+        slot: 30
+        material: DISPENSER
+        name: Dispenser
+      dropper_1753847445278:
+        itemstack:
+          ==: org.bukkit.inventory.ItemStack
+          DataVersion: 4438
+          id: minecraft:dropper
+          count: 1
+          schema_version: 1
+        price: 900
+        slot: 31
+        material: DROPPER
+        name: Dropper
+      crafter_1753847466851:
+        itemstack:
+          ==: org.bukkit.inventory.ItemStack
+          DataVersion: 4438
+          id: minecraft:crafter
+          count: 1
+          schema_version: 1
+        price: 1000
+        slot: 32
+        material: CRAFTER
+        name: Crafter
+      hopper_1753847471146:
+        itemstack:
+          ==: org.bukkit.inventory.ItemStack
+          DataVersion: 4438
+          id: minecraft:hopper
+          count: 1
+          schema_version: 1
+        price: 1000
+        slot: 33
+        material: HOPPER
+        name: Hopper
+      observer_1753847474925:
+        itemstack:
+          ==: org.bukkit.inventory.ItemStack
+          DataVersion: 4438
+          id: minecraft:observer
+          count: 1
+          schema_version: 1
+        price: 1000
+        slot: 34
+        material: OBSERVER
+        name: Observer
+      note_block_1753847478741:
+        itemstack:
+          ==: org.bukkit.inventory.ItemStack
+          DataVersion: 4438
+          id: minecraft:note_block
+          count: 1
+          schema_version: 1
+        price: 500
+        slot: 37
+        material: NOTE_BLOCK
+        name: Note Block
+      redstone_lamp_1753847481379:
+        itemstack:
+          ==: org.bukkit.inventory.ItemStack
+          DataVersion: 4438
+          id: minecraft:redstone_lamp
+          count: 1
+          schema_version: 1
+        price: 500
+        slot: 38
+        material: REDSTONE_LAMP
+        name: Redstone Lamp
+      oak_fence_gate_1753847486537:
+        itemstack:
+          ==: org.bukkit.inventory.ItemStack
+          DataVersion: 4438
+          id: minecraft:oak_fence_gate
+          count: 1
+          schema_version: 1
+        price: 200
+        slot: 39
+        material: OAK_FENCE_GATE
+        name: Oak Fence Gate
+      oak_trapdoor_1753847490523:
+        itemstack:
+          ==: org.bukkit.inventory.ItemStack
+          DataVersion: 4438
+          id: minecraft:oak_trapdoor
+          count: 1
+          schema_version: 1
+        price: 200
+        slot: 40
+        material: OAK_TRAPDOOR
+        name: Oak Trapdoor
+      iron_trapdoor_1753847496611:
+        itemstack:
+          ==: org.bukkit.inventory.ItemStack
+          DataVersion: 4438
+          id: minecraft:iron_trapdoor
+          count: 1
+          schema_version: 1
+        price: 250
+        slot: 41
+        material: IRON_TRAPDOOR
+        name: Iron Trapdoor
+
+
+
+  command_shardshop:  # 1. ตั้งชื่อ Key ของหมวดหมู่ (ไม่ซ้ำกับใคร)
+    display_item:
+      material: AMETHYST_SHARD    # 2. ไอเทมที่จะให้แสดงในหน้า /shop
+      name: '&d&lShard Shop'      # 3. ชื่อของไอเทม
+      lore:                      # 4. คำอธิบายไอเทม (ไม่จำเป็นต้องมีก็ได้)
+        - '&7Click to open the Shard Shop!'
+      slot: 16                     # 5. ตำแหน่งที่จะให้ไอเทมแสดง
+      command: 'shardsshop'      # 6. <<<< ส่วนที่สำคัญที่สุด

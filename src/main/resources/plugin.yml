@@ -1,0 +1,17 @@
+name: BsruShop
+version: 1.0
+main: com.bsruShop.BsruShop
+api-version: 1.18
+author: YourName
+depend: [Vault] # บอกให้เซิร์ฟเวอร์รู้ว่าปลั๊กอินนี้ต้องใช้ Vault
+
+commands:
+  shop:
+    description: Opens the main shop GUI.
+    usage: /shop
+
+  bsrushop:
+    description: BsruShop admin command.
+    usage: /bsrushop reload
+    permission: bsrushop.admin
+    permission-message: You do not have permission to use this command.

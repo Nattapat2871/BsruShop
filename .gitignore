@@ -1,0 +1,70 @@
+# ===============================================
+#  ไฟล์ .gitignore สำหรับโปรเจกต์ Java (Minecraft Plugin)
+# ===============================================
+
+# Logs
+*.log
+logs/
+
+# ไฟล์ชั่วคราวและไฟล์ Backup
+*.tmp
+*.swp
+*~
+*.bak
+*.patch
+*.diff
+
+# ผลลัพธ์จากการ Build (Maven/Gradle)
+/target/
+/build/
+/out/
+*.jar
+*.war
+
+# ไฟล์ของ IDEs
+# IntelliJ
+.idea/
+*.iml
+*.iws
+
+# Eclipse
+.classpath
+.project
+.settings/
+
+# VSCode
+.vscode/
+
+# NetBeans
+nbproject/
+
+# ไฟล์ระบบปฏิบัติการ (OS generated files)
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# ไฟล์ของเซิร์ฟเวอร์ทดสอบ (Local Test Server)
+# ป้องกันการ push ไฟล์ของเซิร์ฟเวอร์ทั้งหมดขึ้น Git
+/server/
+/run/
+eula.txt
+server.properties
+spigot.yml
+paper.yml
+bukkit.yml
+ops.json
+banned-ips.json
+banned-players.json
+usercache.json
+whitelist.json
+world/
+world_nether/
+world_the_end/
+plugins/
+
+# ยกเว้นไฟล์ README ในโฟลเดอร์ plugins (ถ้ามี)
+!plugins/README.md
